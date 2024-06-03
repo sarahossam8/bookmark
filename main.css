@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(245, 225, 200);
+    color: black;
+}
+.demo{
+    width: 80%;
+    /* background-color: blue; */
+    margin: auto;
+    transform: translateY(50px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.book{
+    background-color: orange;
+    height: 20px;
+
+}
+h1{
+    transform: translateY(-30px);
+    font-family :Pacifico, cursive;
+}
+h2{
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+.mb-3{
+    width: 100%;
+}
+.btn-danger{
+    padding: 10 70px;
+}
+.container{
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+/* .error-input::after{
+    content: 'x';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: red;
+    font-size: 20px;
+    pointer-events: none;
+} */
